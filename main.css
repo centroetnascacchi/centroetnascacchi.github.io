@@ -1,0 +1,409 @@
+@font-face {
+  font-family: 'MyWebFont';
+  src: url('GoogleSans-Regular.ttf') format('ttf'),
+       url('https://fonts.gstatic.com/s/googlesans/v5/4UaGrENHsxJlGDuGo1OIlL3Owp4.woff2') format('woff2'); /* Super Modern Browsers */
+}
+
+body {
+  font-family: 'MyWebFont', 'Titillium Web';
+  font-weight: 300;
+}
+
+header {
+  padding: 20px 0;
+  background-color: #222222;
+}
+
+header .row,
+footer .row {
+  display: flex;
+  align-items: center;
+}
+
+header h1 {
+  font-weight: 700;
+  margin: 0;
+}
+
+header img {
+  width: 100%;
+}
+
+header nav {
+  display: flex;
+  justify-content: flex-end;
+}
+
+header nav a:link, a:visited, a:hover, a:active {
+  color: #ff3300;
+}
+
+header p {
+  padding: 0 20px;
+  margin: 0;
+}
+
+#J01 {
+  display: flex;
+  align-items: center;
+  background-image: url('images/07.jpg');
+  background-size: cover;
+  color: #ffffff;
+  height: 500px;
+  text-shadow: 0.25px 0.25px 0.25px #000000;
+  font-family: 'MyWebFont', 'Bungee';
+}
+
+.jumbotron h2 {
+  font-size: 60px;
+  font-weight: 700;
+  margin: 0;
+  color: #fff;
+}
+
+.jumbotron h3 {
+  margin: 0 0 20px;
+  color: #fff;
+}
+
+section .row img {
+  margin: 20px 0 10px;
+  width: 100%;
+}
+
+.btn.btn-primary {
+  border-radius: 2px;
+  border: 0px;
+  color: #fbd1d5;
+  text-shadow: none;
+  background-color: #ffffff;
+}
+
+.btn.btn-primary:hover {
+  color: #ffffff;
+  background-color: #fbd1d5;
+}
+
+.btn-secondary {
+  background-color: #E8DFE0;
+  color: #ffffff;
+  margin: 0 0 30px;
+}
+
+footer {
+  font-size: 12px;
+  padding: 20px 0;
+}
+
+footer .col-sm-8 {
+  display: flex;
+  justify-content: flex-end;
+}
+
+footer ul {
+  list-style: none;
+}
+
+footer li img {
+  width: 32px;
+  height: 32px;
+}
+
+#A01 {
+  margin-left: 33.33%;
+  margin-right: 33.33%;
+}
+
+#A02 {
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 40px;
+}
+
+#A03 {
+  text-align: center;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 20px;
+}
+
+.video {
+  position: relative;
+  padding-top: 30px;
+  padding-bottom: 56.25%;
+  height: 0;
+  overflow: hidden;
+}
+
+.video iframe {
+  position: absolute;
+  top: 0;
+  left: 15%;
+  width: 70%;
+  height: 70%;
+}
+
+#HCB_comment_box img {
+  width: 16px;
+}
+
+#A04 {
+  background-color: #222222;
+  color: #ff3300;
+  text-align: center;
+  margin-top: 20px;
+}
+
+#B01 {
+  width: 70%;
+  height: auto;
+  margin-left: 15%;
+  margin-top: 30px;
+  margin-bottom: 20px;
+  background-color: #222222;
+  color: #ff3300;
+  border: 0;
+  font-size: 60px;
+  font-family: 'MyWebFont', 'Bungee';
+  transition: 0.3s;
+}
+
+#B01:hover {
+  background-color: #ff3300;
+  color: #222222;
+}
+
+#B02 {
+  width: 70%;
+  height: auto;
+  margin-left: 15%;
+  margin-top: 30px;
+  margin-bottom: 20px;
+  background-color: #222222;
+  color: #ff3300;
+  border: 0;
+  font-size: 30px;
+  font-family: 'MyWebFont', 'Bungee';
+  transition: 0.3s;
+}
+
+#B02:hover {
+  background-color: #ff3300;
+  color: #222222;
+}
+
+#H01 {
+  margin-top: 30px;
+  margin-left: 20%;
+  margin-right: 20%;
+  text-align: center;
+}
+
+#H02 {
+  margin-top: 30px;
+  margin-left: 10%;
+  margin-right: 10%;
+}
+
+#H03 {
+  margin-left: 10%;
+  margin-right: 10%;
+}
+
+#SL01 {
+  align-items: center;
+}
+
+#IB01 img {
+  transition: 0.3s;
+}
+
+#IB01 img:hover {
+  background-color: #ff3300;
+  border-radius: 20%;
+}
+
+#E01 {
+  margin-top: 200px;
+}
+
+#F01 {
+  margin-top: 300px;
+}
+
+.intrinsic-container-16x9 {
+  padding-bottom: 56.25%;
+}
+
+.intrinsic-container-4x3 {
+  padding-bottom: 75%;
+}
+
+.padding-bottom-225px {
+  padding-bottom: 225px;
+}
+
+.padding-bottom-40px {
+  padding-bottom: 40px;
+}
+
+.intrinsic-container iframe {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+}
+
+.intrinsic-container-smaller iframe {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 70%;
+  height: 70%;
+  margin-left: 15%;
+}
+
+.tab {
+    overflow: hidden;
+    border: 3px solid #f30;
+    background-color: #f1f1f1;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+@media all and (min-width: 700px) {
+  .tab button {
+      background-color: #222222;
+      color: #ff3300;
+      width: 16.666%;
+      font-size: 20px;
+      float: left;
+      border: none;
+      outline: none;
+      cursor: pointer;
+      padding: 14px 16px;
+      transition: 0.3s;
+  }
+}
+
+@media all and (max-width: 699px) {
+  .tab button {
+      background-color: #222222;
+      color: #ff3300;
+      width: 33.333%;
+      font-size: 22px;
+      float: left;
+      border: none;
+      outline: none;
+      cursor: pointer;
+      padding: 14px 16px;
+      transition: 0.3s;
+  }
+}
+
+.tab button:hover {
+    background-color: #ff3300;
+    color: #222222;
+}
+
+.tab button.active {
+    background-color: #ff3300;
+    color: #222222;
+}
+
+.tabcontent {
+    display: none;
+}
+
+#W01 {
+  margin-top: 30px;
+  margin-bottom: 15px;
+  margin-left: 12%;
+  width: 76%;
+}
+
+@media all and (min-width: 500px) {
+  #T01 {
+    width: 80%;
+    margin-top: 20px;
+    margin-left: 10%;
+    font-size: 25px;
+  }
+}
+
+@media all and (max-width: 499px) {
+  #T01 {
+    width: 80%;
+    margin-top: 20px;
+    margin-left: 10%;
+    font-size: 18px;
+  }
+}
+
+#T01 th {
+  background-color: #222222;
+  color: #ff3300;
+  padding-left: 15px;
+  padding-right: 15px;
+  padding-top: 5px;
+  padding-bottom: 5px;
+}
+
+#T01 td {
+  padding-left: 15px;
+  padding-right: 15px;
+  padding-top: 5px;
+  padding-bottom: 5px;
+}
+
+#jccArena {
+  font-size: 30px;
+  background-color: #000000;
+}
+
+#width100 {
+  width: 100%;
+}
+
+#T02 table, th, td {
+  border: 0px solid black;
+  padding: 5px;
+}
+
+#marginTop30px {
+  margin-top: 30px;
+}
+
+#es2a {
+  width: 400px;
+  height: 250px;
+  font-size: 40px;
+  transition: 0.8s;
+  border: 4px dotted black;
+  color: #960000;
+  background: yellow;
+}
+
+#es2a:hover {
+  font-size: 50px;
+  color: yellow;
+  background-color: #960000;
+}
+
+#es2b {
+  border: 4px dotted black;
+  color: #960000;
+  background: yellow;
+}
+
+@media (min-width: 720px) {
+  #es2b:active {
+    border: 4px dotted green;
+  }
+}
+
+#marginLeftTop30px {
+  margin-left: 30px;
+  margin-top: 30px;
+}
